@@ -2,15 +2,21 @@
 import sys
 try:
     x = input('式を入力:')
-    print(float(x))
+    if type(x) == int:
+        print(int(x))
+    else:
+        print(float(x))
 except:
     print("エラー")
     sys.exit()
 y = input('計算を続けるには0 止めるには1を入力:')
 while y == 0:
     try:
-        x = input('Input :')
-        print(float(x))
+        x = input('式を入力:')
+        if type(x) == int:
+            print(int(x))
+        else:
+            print(float(x))
     except:
         print("エラー")
         sys.exit()

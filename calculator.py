@@ -8,6 +8,6 @@ while x != exit:
         print("答えは" + str(float(x)))
     else:
         pass
-    x = input(":")
+    x = input("式を入力:")
 print("終了します")
 sys.exit()

@@ -2,12 +2,7 @@
 import sys
 x = input("式を入力:")
 while x != exit:
-    if type(x) == int:
-        print("答えは" + str(int(x)))
-    elif type(x) == float:
-        print("答えは" + str(float(x)))
-    else:
-        pass
+    print("答えは、" + str(x))
     x = input("式を入力:")
 print("終了します")
 sys.exit()

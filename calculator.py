@@ -1,8 +1,9 @@
 # coding: utf-8
 import sys
-x = eval(input("式を入力:"))
-while x != exit:
+x = input("式を入力:")
+while x != "exit":
+    x = eval(x)
     print("答えは、" + str(x))
-    x = eval(input("式を入力:"))
+    x = input("式を入力:")
 print("終了します")
 sys.exit()
